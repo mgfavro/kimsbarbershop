@@ -1,4 +1,4 @@
-/* Kim's Family Barber — interactions */
+/* Dominion Barber Shop — interactions */
 (function () {
   "use strict";
 
