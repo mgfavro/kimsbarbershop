@@ -1,5 +1,5 @@
 /* ============================================================
-   Kim's Family Barber — McLean, VA
+   Dominion Barber Shop — McLean, VA
    Sleek, chic, elevated barbershop site
    ============================================================ */
 
@@ -127,6 +127,7 @@ img, svg, iframe { display: block; max-width: 100%; }
   background: linear-gradient(90deg, var(--brass) 50%, rgba(255,255,255,0.25) 50%);
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
+.review-banner__stars .empty { color: rgba(255,255,255,0.28); }
 .review-banner__label { color: var(--cream); opacity: 0.85; }
 .review-banner__cta { color: var(--brass); font-weight: 500; letter-spacing: 0.06em; }
 @media (max-width: 620px) {
@@ -482,6 +483,7 @@ section { padding: clamp(4.5rem, 9vw, 8rem) var(--pad); }
 .reviews__num { font-family: var(--serif); font-weight: 700; font-size: 2.4rem; color: var(--ink); line-height: 1; }
 .reviews__stars { color: var(--brass); font-size: 1.4rem; letter-spacing: 0.06em; }
 .reviews__stars .half, .review-banner__stars .half { position: relative; }
+.reviews__stars .empty { color: rgba(17,16,20,0.18); }
 .reviews__meta { width: 100%; font-size: 0.82rem; letter-spacing: 0.06em; color: var(--muted-dark); }
 .reviews__grid {
   max-width: var(--maxw);
